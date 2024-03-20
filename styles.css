@@ -32,14 +32,26 @@ h1 {
     text-shadow: 1px 1px 0 black;
 }
 
+div {
+    display: block;
+}
+
 img {
-    width: 147px;
-    height: 133px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    display: block;
+}
+
+p {
+    display: block;
 }
 
 .activities {
@@ -50,22 +62,13 @@ h2 {
 }
 
  .activity-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   max-width: 300px;
 }
 
 .activity-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 300px;
 }
 
 .activity-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 300px;
 }  
