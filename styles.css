@@ -44,13 +44,9 @@ h2 {
 
 .activities {
     display: flex;
-    flex-direction: row;
     align-items: start;
-    width: 100%;
-    justify-content: center;
-    gap: 3;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-around;
+    height: 400px;
 }
 
  .activity-1 {
